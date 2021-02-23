@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+a{
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+    font-size: 16px; 
+    font-weight: 400;
+    overflow-x: hidden;
+}
+.no-scroll{
+	overflow-y:hidden;
+}
+input, button, textarea{
+	font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.content{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.content-header{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bt{
+    padding: 20px 25px;
+    font-weight: 700;
+    border-radius: 100px;
+    line-height: 0;
+    border: none;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.bt:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+h2.title{
+	text-align: center;
+	font-size: 43px;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+h2.title:after{
+	content: "";
+	width: 36px;
+	height: 3px;
+	background: #31b562;
+	display: block;
+	margin:20px auto 0 auto;	
+}
+h2.title-white{
+	text-align: center;
+	font-size: 34px;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+h2.title-white:after{
+	content: "";
+	width: 36px;
+	height: 3px;
+	background: #fff;
+	display: block;
+	margin:20px auto 0 auto;	
+}
+.efct-ative{
+	opacity: 1 !important;
+}
+/* COLORS */
+.cl-blue{
+    color: #0080FF;
+}
+.cl-navy-blue{
+    color: #040A2C;
+}
+.cl-gray{
+    color: #A1A3B1;
+}
+.cl-gray-bold{
+    color: #727272;
+}
+.cl-gold{
+    color: #D49B21;
+}
+.cl-black{
+    color: #5f5f5f;
+}
+.cl-white{
+    color: #fff;
+}
+.cl-yellow{
+	color: #e3e01c;
+}
+.cl-green{
+	color: #31b562 !important;
+}
+/* BGS */
+.bg-gold{
+    background-color: #D49B21;
+}
+.bg-black{
+    background-color: #3e3e3e;
+}
+.bg-yellow{
+	background-color: #e3e01c;
+}
+.bg-blue{
+	background-color: #1a4e72;
+}
+.bg-trasparent{
+	background-color: transparent;
+}
+.bg-green{
+	background-color: #31b562;
+}
+.desk-none{
+	display: none;
+}
+.mb-none{
+	display: block;
+}
+header ul li.desk-none{
+	margin: 0;
+}
+header ul li.desk-none a{
+	font-size: 0px;
+}
+

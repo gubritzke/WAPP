@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^dominio.com
+RewriteRule ^ https://meiodigital.net.br%{REQUEST_URI} [L,R=301]
+
+# CONFIGURAR UTILIZAÇÃO DO HTTPS
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://meiodigital.net.br/$1 [R,L]
